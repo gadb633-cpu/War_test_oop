@@ -16,5 +16,5 @@ class Menu:
 
         1. New game
         2. Exit
-        
-        ''')    
+
+        ''') 

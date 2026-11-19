@@ -3,14 +3,14 @@ import random
 from classes.player import Player
 
 class Game:
-    def __init__(self,name):
+    def __init__(self):
         self.list_cards = []
-        self.player = Player(name)
+        self.player = Player("player")
         self.computer= Player("computer")
 
     def make_deck(self):
         count = 2
-        kinds = ["h","d","c","s"]
+        kinds = ["♥","♦","♣","♠"]
         the_kind = 0
         for num in range(52):
             self.list_cards.append(Card(count,kinds[the_kind]))

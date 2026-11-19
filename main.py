@@ -5,7 +5,7 @@ from menus.shaw_menu import Menu
 from result.shaw_result import Shaw_result
 
 def main():
-    game = Game(Inputs.get_str("enter your name"))
+    game = Game()
     game.make_deck()
     game.mixing()
     game.distribution_to_players()
