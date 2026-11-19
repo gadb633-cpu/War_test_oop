@@ -23,7 +23,6 @@ def main():
                 choice_in = Inputs.get_num("enter your choice [1,2]")
                 match choice_in:
                     case 1:
-                        status= False
                         main()
                     case 2:
                         status = False
