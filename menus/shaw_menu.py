@@ -1,7 +1,7 @@
 
 class Menu:
     staticmethod
-    def shew_menu():
+    def shew_main_menu():
         print('''
         =======================
                  game

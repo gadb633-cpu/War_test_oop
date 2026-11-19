@@ -11,7 +11,7 @@ def main():
     game.distribution_to_players()
     status = True
     while status:
-        Menu.shew_menu()
+        Menu.shew_main_menu()
         choice_out = Inputs.get_num("enter your choice [1,2]")
         match choice_out:
             case 1:
