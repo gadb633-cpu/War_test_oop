@@ -26,10 +26,10 @@ class Card:
             raise ValueError("the kind it's noy correct!")
         self._kind_card = new_kind_card
 
-    def to_dict(self):
-        return self.__dict__ 
+    # def to_dict(self):
+    #     return self.__dict__ 
     
-    @classmethod
-    def from_dict(cls,data):
-        return 
+    # @classmethod
+    # def from_dict(cls,data):
+    #     return 
 
