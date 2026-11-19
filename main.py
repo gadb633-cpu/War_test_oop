@@ -7,7 +7,7 @@ from result.shaw_result import Shaw_result
 def main():
     game = Game()
     game.make_deck()
-    game.mixing()
+    game.shuffle()
     game.distribution_to_players()
     status = True
     while status:

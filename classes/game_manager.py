@@ -20,7 +20,7 @@ class Game:
                 continue
             count +=1
 
-    def mixing(self):
+    def shuffle(self):
         for num in range(1000):
             num1 = random.randint(0,51)
             num2 = random.randint(0,51)
